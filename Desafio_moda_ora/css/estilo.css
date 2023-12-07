@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap');
+
+html{
+    font-family: 'Roboto', sans-serif;
+    width: 95%;
+    margin: auto;
+}
+
+.header{
+    display: flex;
+
+    justify-content: space-between;
+    background-color: #162028;
+    height: 60px;
+    margin-bottom: 0;
+}
+
+.header__div{
+    font-family: 'Viaoda Libre', serif;
+    color: white;
+    align-self: center;
+    font-size: 40px;
+    margin-left: 150px;
+}
+
+.header__nav{
+    align-self: center;
+}
+
+.header__nav li{
+    display: inline-block;
+    margin-right: 50px;
+    list-style-type: none;
+}
+
+.header__nav a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #425564;
+    letter-spacing: 3px;
+}
+
+.header__nav a:hover{
+    color: white;
+}
+
+.top-image img{
+    width: 100%;
+}
+
+.main-article{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 65px;
+}
+
+.main-article__title{
+    font-family: 'Viaoda Libre', serif;
+    font-size: 45px;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+.main-article__text{
+    text-align: center;
+    color: #555;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 0;
+}
+
+.main-section{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 45px;
+}
+
+.main-section__product img{
+    width: 310px;
+}
+
+.product__title{
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #555;
+    font-weight: 600;
+}
+
+.product__text{
+    text-align: center;
+    color: #555;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.secondary-article{
+    background-color: #003d52;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 550px;
+
+    height: 450px;
+    margin-top: 80px;
+    color: white;
+    padding: 170px 130px;
+}
+
+.secondary-article__title{
+    font-family: 'Viaoda Libre', serif;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 60px;
+
+    margin: 0;
+}
+
+.secondary-article__text{
+    margin-top: 50px;
+    width: 720px;
+
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.footer{
+    color: #6f8597;
+    background-color: #0b171f;
+
+    font-size: 14px;
+    text-align: center;
+    padding: 30px;
+    letter-spacing: 5px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
